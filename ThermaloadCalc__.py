@@ -113,9 +113,9 @@ class Application(Funcs):
         #self.help_icon = PhotoImage(file='C:/Users/W10/Documents/Códigos/Teste/zajuda.png')
         #self.img_rv1 = PhotoImage(file='C:/Users/W10/Documents/Códigos/Teste/rv1.png')
         #self.img_rv2 = PhotoImage(file='C:/Users/W10/Documents/Códigos/Teste/rv2.png')
-        self.help_icon = PhotoImage(file='C:/Users/felto/Downloads/zajuda1.png')
-        self.img_rv1 = PhotoImage(file='C:/Users/felto/Downloads/rv1.png')
-        self.img_rv2 = PhotoImage(file='C:/Users/felto/Downloads/rv2.png')
+        self.help_icon = PhotoImage(file='zajuda1.png')
+        self.img_rv1 = PhotoImage(file='rv1.png')
+        self.img_rv2 = PhotoImage(file='rv2.png')
         self.botoes()
         self.selected_item1 = StringVar()
         self.selected_item2 = StringVar()
@@ -158,8 +158,8 @@ class Application(Funcs):
     def tela(self):
         self.root.title("ThermaloadCalc")
         self.root.configure(background='#483D8B')
-        #self.root.iconbitmap('C:/Users/W10/Downloads/L2.ico')
-        self.root.iconbitmap('C:/Users/felto/Downloads/L2.ico')        
+        #self.root.iconbitmap('C:/Users/W10/Downloads/L2.ico') # problema
+        # self.root.iconbitmap('L2.ico')          # problema
         self.root.geometry("1000x640")
         self.root.resizable(True,True)
         self.root.maxsize(width=1440, height=960)

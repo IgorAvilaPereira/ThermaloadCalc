@@ -9,5 +9,6 @@ Principais dependências que não estão presentes:
 
 Imagens usando caminho absoluto (do Windows) -> trocar por caminho relativo ao projeto
 
+* conversão pdf não está implementada
 
-conversão pdf não está implementada
+* criar executáveis para os principais s.o's
